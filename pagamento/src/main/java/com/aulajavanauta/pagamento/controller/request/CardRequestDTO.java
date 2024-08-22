@@ -12,6 +12,7 @@ public class CardRequestDTO {
     private String month;
     private String year;
     private String cvv;
+    private BigDecimal purchaseValue;
     private AddressRequestDTO addressRequestDTO;
 
 }
